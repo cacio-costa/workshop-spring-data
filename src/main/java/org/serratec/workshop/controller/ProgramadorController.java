@@ -20,7 +20,8 @@ public class ProgramadorController {
 	}
 	
 	/*
-	 * Consultar todos os desenvolvedores de uma dada especialidade
+	 * Consultar todos os desenvolvedores de uma dada especialidade,
+	 * ordenados por linguagem crescente, e nome decrescente.
 	 */
 	@GetMapping("/programadores-por-especialidade")
 	public List<Programador> programadoresPorEspecialidade() {
